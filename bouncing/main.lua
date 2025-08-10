@@ -1,3 +1,9 @@
+-- Settings
+function love.conf(t)
+    t.window.title = "Bouncing"
+    t.version = "11.4"
+end
+
 -- BeginPlay()
 function love.load()
     -- Screen's 
